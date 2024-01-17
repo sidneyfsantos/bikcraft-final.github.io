@@ -15,7 +15,7 @@ img{
   color: #fff;
 }
 .header {
-  max-width: 1600px;
+  max-width: 1200px;
   /* height: 100px; */
   display: flex;
   justify-content: space-between;
@@ -108,7 +108,13 @@ img{
 }
 
 .introducao{
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.introducao-conteudo{
+  padding-left: 20px;
 }
