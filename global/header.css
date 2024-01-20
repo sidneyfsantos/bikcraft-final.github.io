@@ -81,4 +81,7 @@
   .header-menu {
     justify-content: center;
   }
+  .header-menu a {
+    background-color: var(--cor-10);   
+  }
 }
