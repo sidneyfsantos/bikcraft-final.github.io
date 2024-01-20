@@ -17,22 +17,17 @@
   margin-left: auto;
   margin-right: auto;
 }
-.introducao-conteudo {
- 
+.introducao-conteudo { 
   align-self: end;
   padding-bottom: 120px;
   /* margin-bottom: 120px; */
 }
-.introducao-conteudo h1 {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;  
-  color: var(--cor-0);
+.introducao-conteudo h1 { 
+  margin-bottom: 30px;  
 }
 
-.introducao-conteudo p {
-  font-family: 'Roboto',Arial, Helvetica, sans-serif;
- 
-  margin-bottom: 20px;
- 
+.introducao-conteudo p { 
+   margin-bottom: 20px; 
 }
 
 
@@ -54,16 +49,16 @@
 
 @media(max-width:800px){
   .introducao-bg{
-    background-color: #111;
+    background-color: var(--cor-11);
     padding-top: 20px;
     box-shadow: inset 0px -60px var(--cor-0);
   }
   .introducao h1{
-    font-size: 2rem;
-    
+    font-size: 2rem;    
   }
   .introducao p{
     font-size: 1rem;
+    max-width: 60ch;
   }
   .introducao{
     grid-template-columns: 1fr;

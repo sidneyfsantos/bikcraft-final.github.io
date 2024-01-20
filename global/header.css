@@ -2,11 +2,8 @@
   background-color: var(--cor-12);
   color: #fff;
 }
-.header {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
-  font-weight: 400;
+.header {  
   max-width: 1200px;
-  /* height: 100px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,13 +24,10 @@
 }
 .header-menu a {
   padding: 16px 0px;
-  text-decoration: none;
-  font-size: 1.25rem;
-  color: #fff;
-  font-weight: 500;
-  line-height: 2rem;
   display: inline-block;
   position: relative;
+  text-decoration: none;
+  color:inherit;
 }
 
 .header-menu a::after {
