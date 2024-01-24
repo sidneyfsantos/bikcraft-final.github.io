@@ -2,15 +2,11 @@
   background-color: var(--cor-12);
   color: #fff;
 }
-.header {  
-  max-width: 1200px;
+.header {    
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
   flex-wrap: wrap;
   gap: 20px;
 }
