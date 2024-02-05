@@ -24,3 +24,6 @@ img[src$=".jpg"] {
   margin-left: auto;
   margin-right: auto;
 }
+ul {
+  list-style: none;
+}
