@@ -6,7 +6,7 @@
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
   color: var(--cor-p4);  
-  margin-bottom: 140px;
+  margin-bottom: 140px;  
 }
 @media(max-width:600px){
   .botao {
@@ -16,4 +16,5 @@
 }
 .botao:hover {
   background: linear-gradient(#ce9a00 0%, #d6920a);
+  
 }
