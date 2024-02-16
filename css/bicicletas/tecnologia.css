@@ -1,15 +1,18 @@
 .tecnologia-bg{
     background-color: var(--cor-12);
     color: #fff;
+    box-shadow:  inset 0px -80px #fff, inset 0px 80px #fff;
 }
 .tecnologia-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 60px;
+    /* padding: 60px; */    
 }
+
 .tecnologia-info-componentes h2{
     margin-bottom: 20px;
+    margin-top: 120px;
 }
 .tecnologia-info-componentes h1{
     margin-bottom: 20px;
@@ -21,9 +24,18 @@
 .tecnologia-info-componentes a{
     display: inline-block;
     padding: 20px 0;
-    text-decoration: dashed !important;    
-    
+   
 }
-.tecnologia-info-acessorios{
-    
+.tecnologia-info-acessorios ul{
+    display: flex;
+    gap: 20px;
+}
+.tecnologia-info-imagem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;    
+}
+.tecnologia-info-acessorios p{
+    max-width: 40ch;
 }
