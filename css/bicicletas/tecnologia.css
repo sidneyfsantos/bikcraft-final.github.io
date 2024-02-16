@@ -1,0 +1,29 @@
+.tecnologia-bg{
+    background-color: var(--cor-12);
+    color: #fff;
+}
+.tecnologia-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 60px;
+}
+.tecnologia-info-componentes h2{
+    margin-bottom: 20px;
+}
+.tecnologia-info-componentes h1{
+    margin-bottom: 20px;
+    max-width: 40ch;
+}
+.tecnologia-info-componentes p{
+    margin-bottom: 20px;
+}
+.tecnologia-info-componentes a{
+    display: inline-block;
+    padding: 20px 0;
+    text-decoration: dashed !important;    
+    
+}
+.tecnologia-info-acessorios{
+    
+}
