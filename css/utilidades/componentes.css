@@ -32,12 +32,17 @@
   padding:  20px 0;
   font: 600 1.125em "Popping",sans-serif;
   color: var(--cor-p1);  
+ 
 }
 .botao-link::after{
   content: "";
   display: block;
   margin-top: 2px;
-  max-width:100%;
+  width:0%;
   height: 2px;
   background-color: var(--cor-p1);
+  transition: 0.3s;
+}
+.botao-link:hover::after{
+  width: 100%;
 }
