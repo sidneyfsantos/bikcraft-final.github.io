@@ -34,7 +34,7 @@
   color: var(--cor-p1);  
  
 }
-.botao-link::after{
+.botao-link::after{  
   content: "";
   display: block;
   margin-top: 2px;
