@@ -1,0 +1,14 @@
+
+.parceiros {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.parceiros h1 {
+    margin-bottom: 100px;
+}
+.parceirtos-imagens{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin-top: ;
+}
