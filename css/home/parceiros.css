@@ -28,6 +28,10 @@ li:first-child {
   border-top: 3px solid var(--cor-2);
 }
 @media (max-width: 800px) {
+    .parceiros {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
   .parceirtos-imagens ul {
     grid-template-columns: repeat(2, 1fr);
   }
