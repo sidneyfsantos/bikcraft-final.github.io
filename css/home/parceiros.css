@@ -9,6 +9,5 @@
 .parceirtos-imagens{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 40px;
-    margin-top: ;
+    gap: 40px;  
 }
