@@ -1,66 +1,63 @@
 .parceiros {
   margin-top: 120px;
   margin-bottom: 120px;
+  
 }
 .parceiros h1 {
   margin-bottom: 100px;
 }
-.parceirtos-imagens ul {
+.parceiros-imagens ul {
   max-width: 1400px;
   padding: 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.parceirtos-imagens li {
+.parceiros-imagens li {
   display: flex;
   padding: 20px;
   border-left: 3px solid var(--cor-2);
 }
-.parceirtos-imagens img {
+.parceiros-imagens img {
   margin: auto;
 }
-.parceirtos-imagens li:nth-child(5),
+.parceiros-imagens li:nth-child(5),
 li:first-child {
   border-left: none;
 }
-.parceirtos-imagens li:nth-child(n + 5) {
+.parceiros-imagens li:nth-child(n + 5) {
   border-top: 3px solid var(--cor-2);
 }
 @media (max-width: 800px) {
-    .parceiros {
-        margin-top: 60px;
-        margin-bottom: 60px;
-      }
-  .parceirtos-imagens ul {
+  .parceiros-imagens ul {
     grid-template-columns: repeat(2, 1fr);
   }
-  .parceirtos-imagens li:nth-child(n + 3) {
+  .parceiros-imagens li:nth-child(n + 3) {
     border-top: 3px solid var(--cor-2);
   }
   .parceiros {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 0px;
+    margin-bottom: 32px;
   }
   .parceiros h1 {
     font-size: 2.5rem;
-    margin-bottom: 60px;
+    margin-bottom: 32px;
   }
-  .parceirtos-imagens li:nth-child(odd) {
+  .parceiros-imagens li:nth-child(odd) {
     border-left: none;
   }
-}
+ }
 @media (max-width: 400px) {
-  .parceirtos-imagens ul {
-    grid-template-columns: 1fr;
-  }
-  .parceirtos-imagens li:nth-child(n + 2) {
-    border-top: 3px solid var(--cor-2);
-  }
-  .parceirtos-imagens img {
-    width: 50%;
-  }
-  .parceirtos-imagens li:nth-child(even) {
-    border-left: none;
-  }
+    .parceiros-imagens ul {
+        grid-template-columns:  1fr;
+      }
+      .parceiros-imagens li:nth-child(n + 2) {
+        border-top: 3px solid var(--cor-2);
+      }
+    .parceiros-imagens img {
+        width: 50%;
+      }
+      .parceiros-imagens li:nth-child(even) {
+        border-left: none;
+      }
 }
