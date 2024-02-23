@@ -1,0 +1,15 @@
+.seguros-bg{
+  background-color: var(--cor-11);
+  color: #fff;
+  margin-bottom: 200px;
+}
+.seguros h1{
+
+}
+
+.seguro-botao{
+  display: inline-block;
+  color: var(--cor-4);
+  padding: 10px 8px;
+  background-color: var(--cor-10);
+}
