@@ -18,7 +18,22 @@
   /* margin-bottom: 140px;  */
   max-width: max-content; 
 }
-
+.botao.seta{
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after{
+  content: "";
+  display: inline-block;
+  background-image: url("../../img/icones/seta.svg");
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  transition: transform 0.3s;
+}
+.botao.seta:hover::after{
+  transform: translateX(4px)
+}
 @media(max-width:600px){
   .botao {
   padding: 6px 10px;
