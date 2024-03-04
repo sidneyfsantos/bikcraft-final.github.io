@@ -1,0 +1,24 @@
+.titulo-bg {
+  background-color: var(--cor-12);
+}
+.titulo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo h2 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.termos-conteudo {
+  padding: 120px 0px;
+}
+.termos-conteudo h2 {
+  margin-bottom: 28px;
+}
+.textos {
+  padding: 0px 0px 20px 0px;
+}
+.termos-conteudo p {
+  max-width: 85ch;
+  margin-bottom: 16px;
+}
