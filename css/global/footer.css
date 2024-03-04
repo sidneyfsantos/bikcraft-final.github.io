@@ -20,3 +20,24 @@
     display: flex;
     gap: 40px;
 }
+.rodape-copy{
+    grid-column: 1/-1;
+    margin-top: 32px;
+}
+.rodape a:hover{
+    color: var(--cor-4);
+}
+
+@media(max-width:800px){
+    .rodape{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .rodape > img{
+        display: none;
+    }
+    .rodape-copy{
+        grid-column: 1/-1;
+        margin-top: 0px;
+    }
+}
