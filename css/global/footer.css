@@ -16,9 +16,24 @@
 .rodape ul{
     margin-bottom: 32px;
 }
+.rodape-contato li + li{
+    margin-top: 8px;
+}
+
+.rodape-contato li:nth-child(even):after{
+    content: "";
+    display: block;
+    width: 300px;
+    height:1px;
+    background-color: var(--cor-11);
+    margin-top: 8px;
+}
 .rodape-contato .redes-sociais{
     display: flex;
     gap: 40px;
+}
+.rodape-info li{
+    margin-top: 8px ;
 }
 .rodape-copy{
     grid-column: 1/-1;
