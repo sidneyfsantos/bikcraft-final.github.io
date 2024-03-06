@@ -1,13 +1,10 @@
 .bicicletas{
     padding: 120px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr auto;
     gap: 40px;;
 }
-.conteudo-vantagens{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .bicicletas-contuedo h2{
     margin-bottom: 20px;
 }
