@@ -56,6 +56,11 @@
   .header-menu a::after {
     display: none;
   }
+  #bicicletas .header-menu a.marcacao,
+  #seguros .header-menu a.marcacao,
+  #contatos .header-menu a.marcacao {  
+    background-color: var(--cor-10);
+}
 }
 @media (max-width: 600px) {
   .header-menu {
@@ -69,6 +74,11 @@
   .header {
     justify-content: center;
   }
+  #bicicletas .header-menu a.marcacao::after,
+  #seguros .header-menu a.marcacao::after,
+  #contatos .header-menu a.marcacao::after {  
+    width: 100%;  
+}
 }
 @media (max-width: 370px) {
   .header {

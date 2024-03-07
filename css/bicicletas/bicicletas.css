@@ -4,8 +4,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
-.bicicletas-bg:nth-child(2){
-    background-color: var(--cor-12);    
+.bicicletas-bg:nth-child(even){
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-12) 0%);  
 }
 .conteudo-vantagens{
     display: grid;
@@ -64,6 +64,9 @@
         gap: 20px;  
         padding: 60px 20px;     
     }
+    .bicicletas-bg:nth-child(even){
+        background: var(--cor-12) ;  
+    }
 }
 @media(max-width:600px){
     .conteudo-vantagens{      
@@ -75,6 +78,9 @@
     }
     .bicicletas a{    
         place-self: center;
+    }
+    .bicicletas-imagem span{
+        font-size: 1rem;
     }
 }
 

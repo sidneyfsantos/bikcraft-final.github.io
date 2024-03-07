@@ -47,14 +47,5 @@ a{
 #bicicletas .header-menu a.marcacao::after,
 #seguros .header-menu a.marcacao::after,
 #contatos .header-menu a.marcacao::after {  
-  width: 100%;
-    /* content: "";
-    display: block;
-    width: 0%;
-    height: 2px;
-    background: var(--cor-0);
-    margin-top: 4px;
-    transition: 0.3s;
-    position: absolute; */
-  
+  width: 100%;  
 }
