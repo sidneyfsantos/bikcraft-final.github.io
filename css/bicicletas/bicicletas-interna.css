@@ -11,7 +11,7 @@
   "f1 f1"
   "f2 f3";
   gap: 20px;
-  margin-bottom: ;
+  margin-bottom: 20px;
 }
 .f1{
   grid-area: f1;
