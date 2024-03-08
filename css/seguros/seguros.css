@@ -1,3 +1,6 @@
+#seguros .titulo-bg{
+  background-color: var(--cor-11) ;
+}
 .seguros-bg{
   background-color: var(--cor-11);
 }
