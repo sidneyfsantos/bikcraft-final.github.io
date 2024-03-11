@@ -38,8 +38,76 @@
 .seguros-item li + li{
   margin-top: 20px;
 }
+.seguros-vantagens-bg{
+  background-color: var(--cor-12);
+}
+.seguros-vantagens{
+  padding: 120px 20px;
+}
+.seguros-vantagens h1{
+  margin-bottom: 92px;
+}
+.seguros-vantagens img,
+.seguros-vantagens h3{
+  margin-bottom: 8px;
+}
+.seguros-vantagens img{
+  display: grid;
+  place-content: start;
+}
+.seguros-vantagens>ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;  
+  
+}
+.perguntas-conteudo{
+  padding: 120px 0px;
+}
+.perguntas-conteudo img{
+  width: 12px;
+  height: 4px;
+}
+.perguntas-conteudo p{
+  max-width: 100ch;
+}
+
+.perguntas-conteudo li:nth-child(odd){
+  background-color: var(--cor-2);
+}
+.perguntas-conteudo h1{
+  margin-bottom: 80px;
+}
+.perguntas-conteudo li{
+   display: flex;
+   justify-content: space-between;
+   padding: 24px 12px;
+}
+.perguntas-conteudo ul li:hover img{
+  transform:  rotate(180deg);
+  transition: 0.3s;
+}
+
 @media(max-width:800px){
   .seguros{
     grid-template-columns: 1fr;
+  }
+}
+@media(max-width:800px){
+  .seguros-vantagens ul{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media(max-width:800px){
+  .seguros-vantagens ul{
+    grid-template-columns: 1fr ;
+    gap: 20px;
+  }
+  .seguros-vantagens{
+    padding: 60px 20px;
+  }
+  .seguros-vantagens h1{
+    padding: 0px;
   }
 }
