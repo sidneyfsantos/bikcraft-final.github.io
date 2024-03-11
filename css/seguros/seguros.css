@@ -87,7 +87,6 @@
   transform:  rotate(180deg);
   transition: 0.3s;
 }
-
 @media(max-width:800px){
   .seguros{
     grid-template-columns: 1fr;
