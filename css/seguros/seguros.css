@@ -71,7 +71,6 @@
 .perguntas-conteudo p{
   max-width: 100ch;
 }
-
 .perguntas-conteudo li:nth-child(odd){
   background-color: var(--cor-2);
 }
