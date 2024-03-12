@@ -86,6 +86,7 @@
   transform:  rotate(180deg);
   transition: 0.3s;
 }
+
 @media(max-width:800px){
   .seguros{
     grid-template-columns: 1fr;
@@ -99,6 +100,12 @@
   .perguntas-conteudo{
     padding: 32px 20px;
   }
+  .perguntas-conteudo  p{
+    font-size: .875rem;
+  }
+  .perguntas-conteudo  h3{
+    font-size: 1rem;
+  }
 }
 @media(max-width:400px){
   .seguros-vantagens ul{
@@ -111,5 +118,10 @@
   .seguros-vantagens h1{
     padding: 0px;
   }
-
+  .perguntas-conteudo  p{
+    font-size: .875rem;
+  }
+  .perguntas-conteudo  h3{
+    font-size: 1rem;
+  }
 }
