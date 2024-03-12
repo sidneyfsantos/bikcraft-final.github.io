@@ -96,8 +96,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  .perguntas-conteudo{
+    padding: 32px 20px;
+  }
 }
-@media(max-width:800px){
+@media(max-width:400px){
   .seguros-vantagens ul{
     grid-template-columns: 1fr ;
     gap: 20px;
@@ -108,4 +111,5 @@
   .seguros-vantagens h1{
     padding: 0px;
   }
+
 }
