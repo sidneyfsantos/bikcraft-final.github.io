@@ -5,15 +5,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.bicicletas-int-imagens{
+/* Solução 1 */
+/* .bicicletas-int-imagens{
   display: grid;
   grid-template-areas: 
   "f1 f1"
   "f2 f3";
   gap: 20px;
   margin-bottom: 20px;
-}
-.f1{
+  .f1{
   grid-area: f1;
 }
 .f2{
@@ -22,15 +22,43 @@
 .f3{
   grid-area: f3;
 }
+} */
+
+/* Solução 2 */
+.bicicletas-int-imagens{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px
+}
+.bicicletas-int-imagens img{
+  flex: 1;
+  min-width: 200px;
+}
+.bicicletas-int-imagens img:first-child{
+  min-width: 100%;
+}
+
 .bicicletas-int-conteudo p{
   max-width: 40ch;
   margin-bottom: 32px;
 }
 
 .bicicletas-int-comprar{
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-content: start;
+  gap: 8px 12px; 
 }
-.bicicletas-int-comprar img{
-  display: inline-block;
+.bicicletas-int-comprar a{
+  grid-row:  span 3;
+}
+.bicicletas-int-comprar span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: start;
+}
+.bicicletas-int-vantanges{
+  background-color: var(--cor-12);
 }
