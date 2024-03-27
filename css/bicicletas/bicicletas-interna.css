@@ -1,5 +1,6 @@
 .titulo-bg {
   background-color: var(--cor-11);
+  --corFundo: var(--cor-12);
 }
 .bicicletas-int{
   display: grid;
@@ -28,7 +29,9 @@
 .bicicletas-int-imagens{
   display: flex;
   flex-wrap: wrap;
-  gap:20px
+  gap:20px;
+  margin-bottom: 60px;
+  max-height: 300px;
 }
 .bicicletas-int-imagens img{
   flex: 1;
@@ -49,6 +52,7 @@
   align-items: center;
   justify-content: start;
   gap: 8px 12px; 
+  margin-bottom: 40px;
 }
 .bicicletas-int-comprar a{
   grid-row:  span 3;
@@ -58,7 +62,53 @@
   gap: 8px;
   align-items: center;
   justify-content: start;
+  white-space: nowrap;
 }
 .bicicletas-int-vantanges{
-  background-color: var(--cor-12);
+  background-color: var(--corFundo)
+}
+.bicicleta-int-conteudo-vantagens h3{
+  margin-bottom: 12px;
+}
+.bicicleta-int-conteudo-vantagens ul{
+  background-color: var(--corFundo);
+  padding: 32px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+.bicicleta-int-conteudo-vantagens li {
+  display: grid;
+  gap: 8px 0px;
+}
+.bicicleta-int-conteudo-ficha{
+  background-color: var(--corFundo) ;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.bicicleta-int-conteudo-ficha li{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+@media(max-width:800px){
+  .bicicletas-int-comprar{
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+  .bicicleta-int-conteudo-vantagens ul{
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+  .bicicletas-int{
+    gap: 20px;
+  }
+  .bicicleta-int-conteudo-ficha{
+    grid-column: 1;
+  }
 }
